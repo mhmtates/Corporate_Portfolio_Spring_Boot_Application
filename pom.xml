@@ -11,6 +11,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+
     <!--for project information-->
     <groupId>com.mehmetatesozates</groupId>
     <artifactId>Corporate_Portfolio_Spring_Boot_Application</artifactId>
