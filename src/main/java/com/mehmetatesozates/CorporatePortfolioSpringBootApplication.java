@@ -1,6 +1,6 @@
 package com.mehmetatesozates;
 
-import com.mehmetatesozates.security.jwt.JwtProps;
+//import com.mehmetatesozates.security.jwt.JwtProps;
 import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -52,7 +52,7 @@ import java.util.TimeZone;
         //RedisAutoConfiguration.class,
 }
 )*/
-@EnableConfigurationProperties(JwtProps.class)
+//@EnableConfigurationProperties(JwtProps.class)
 @SpringBootApplication(
         exclude = {
                 org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration.class,

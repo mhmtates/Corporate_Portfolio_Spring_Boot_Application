@@ -1,0 +1,5 @@
+Ctrl + d     = Copy-Pasce
+Ctrl + k     + c  = Comment
+Shift+ Alt   + F = beautify
+Ctrl + Shift + P = Bütün ayarlar
+Ctrl + Shift + P = Bütün ayarlar (Configure Display Language)
