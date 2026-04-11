@@ -2,11 +2,11 @@
 
 ## 🔍 Hamit Mızrak Repo İstatistikleri
 
-![Ziyaretçi Sayısı](https://visitor-badge.laobi.icu/badge?page_id=hamitmizrak.https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32)
-![Stars](https://img.shields.io/github/stars/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32?style=social)
-![Forks](https://img.shields.io/github/forks/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32?style=social)
-![Son Commit](https://img.shields.io/github/last-commit/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32)
-![License](https://img.shields.io/github/license/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32)
+![Ziyaretçi Sayısı](https://visitor-badge.laobi.icu/badge?page_id=hamitmizrak.https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32)
+![Stars](https://img.shields.io/github/stars/hamitmizrak/https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32?style=social)
+![Forks](https://img.shields.io/github/forks/hamitmizrak/https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32?style=social)
+![Son Commit](https://img.shields.io/github/last-commit/hamitmizrak/https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32)
+![License](https://img.shields.io/github/license/hamitmizrak/https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32)
 
 ## 🏆 Hamit Mızrak Profil Ödülleri
 
@@ -18,7 +18,7 @@
 <br>
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hamitmizrak&layout=compact)
 <br>
-[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=hamitmizrak&repo=https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32)](https://github.com/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32)
+[![Pinned Repo](https://github-readme-stats.vercel.app/api/pin/?username=hamitmizrak&repo=https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32)](https://github.com/mhmtates/https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32)
 
 ## 📈 Hamit Mızrak Aktivite Grafiği
 
@@ -32,7 +32,7 @@
 
 # Ecodation Full Stack Frontend -
 
-[GitHub Address](https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git)
+[GitHub Address](https://https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git)
 
 ---
 
@@ -58,7 +58,7 @@ git branch
 ## Git Clone
 
 ```sh
-git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git
+git clone https://https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git
 ```
 
 ---
@@ -72,7 +72,7 @@ Bu projede html5,css3,bs5,js,es+5, ts teknolojileri ile proje yapılacaktır.
 ## Linkler
 
 ```sh
-https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_3_FullStack_3
+https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_3_FullStack_3
 https://nodejs.org/en/download
 https://github.com/signup
 https://git-scm.com/install/windows
@@ -312,7 +312,7 @@ git push --fource
 ## Git Clone
 
 ```sh
-git clone https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_3_FullStack_3
+git clone https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_3_FullStack_3
 
 cd 2025_Ecodation_Frontend_FullStack_33
 npm install
@@ -327,7 +327,7 @@ npm i
 ```sh
 git config --global user.name "hamitmizrak"
 git config --global user.name
-git config --global user.email "hamitmizrak@gmail.com"
+git config --global user.email "ozatesatess@gmail.com"
 git config --global user.email
 
 git init
@@ -338,7 +338,7 @@ git branch
 git push -u origin master
 
 git remote -v
-git clone https://github.com/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend_FullStack_32
+git clone https://github.com/mhmtates/https://github.com/mhmtates/2025_Ecodation_Frontend_FullStack_32
 
 git log
 git reset HEAD~8

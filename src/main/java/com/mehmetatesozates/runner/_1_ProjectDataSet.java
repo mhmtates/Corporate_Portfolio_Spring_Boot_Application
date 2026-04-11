@@ -1,4 +1,4 @@
-package com.mehmetatesozates.runner;
+/* package com.mehmetatesozates.runner;
 
 import com.mehmetatesozates.business.dto.AddressDto;
 import com.mehmetatesozates.business.dto.CustomerDto;
@@ -29,118 +29,118 @@ import java.util.UUID;
 @Order(1)
 public class _1_ProjectDataSet implements CommandLineRunner {
 
-    // Injection
-    private final IAddressService iAddressService;
-    private final ICustomerService iCustomerService;
-    private final IOrderService iOrderService;
+   // Injection
+   private final IAddressService iAddressService;
+   private final ICustomerService iCustomerService;
+   private final IOrderService iOrderService;
 
-    // AddressDto List Save
-    private List<AddressDto> addressSave(){
-        List<AddressDto> addressDtoList = new ArrayList<>();
-        for (int i = 1; i <= 15; i++) {
-            AddressDto addressDto = new AddressDto();
-            addressDto.setCity("İl "+i);
-            addressDto.setDescription("tanımlama "+i);
-            addressDto.setStreet("cadde "+i);
-            addressDto.setState("state "+i);
-            addressDto.setZipCode("zip code "+i);
-            addressDto.setDoorNumber("door number "+i);
-            addressDto.setAddressQrCode(UUID.randomUUID().toString());
-            iAddressService.objectServiceCreate(addressDto);
-            addressDtoList.add(addressDto);
-        }
-        return addressDtoList;
-    }
+   // AddressDto List Save
+   private List<AddressDto> addressSave(){
+       List<AddressDto> addressDtoList = new ArrayList<>();
+       for (int i = 1; i <= 15; i++) {
+           AddressDto addressDto = new AddressDto();
+           addressDto.setCity("İl "+i);
+           addressDto.setDescription("tanımlama "+i);
+           addressDto.setStreet("cadde "+i);
+           addressDto.setState("state "+i);
+           addressDto.setZipCode("zip code "+i);
+           addressDto.setDoorNumber("door number "+i);
+           addressDto.setAddressQrCode(UUID.randomUUID().toString());
+           iAddressService.objectServiceCreate(addressDto);
+           addressDtoList.add(addressDto);
+       }
+       return addressDtoList;
+   }
 
-    // Address Save
-    private AddressDto saveAddress(){
-        AddressDto addressDto = new AddressDto();
-        addressDto.setCity("Hatay ");
-        addressDto.setDescription("tanımlama ");
-        addressDto.setStreet("cadde ");
-        addressDto.setState("state ");
-        addressDto.setZipCode("zip code ");
-        addressDto.setDoorNumber("door number ");
-        addressDto.setAddressQrCode(UUID.randomUUID().toString());
-        return addressDto;
-    }
+   // Address Save
+   private AddressDto saveAddress(){
+       AddressDto addressDto = new AddressDto();
+       addressDto.setCity("Hatay ");
+       addressDto.setDescription("tanımlama ");
+       addressDto.setStreet("cadde ");
+       addressDto.setState("state ");
+       addressDto.setZipCode("zip code ");
+       addressDto.setDoorNumber("door number ");
+       addressDto.setAddressQrCode(UUID.randomUUID().toString());
+       return addressDto;
+   }
 
-    // Customer Save
-    private CustomerDto saveCustomer(){
-        // Address Dto Save
-        AddressDto addressDto = saveAddress();
+   // Customer Save
+   private CustomerDto saveCustomer(){
+       // Address Dto Save
+       AddressDto addressDto = saveAddress();
 
-        // Customer Dto Save
-        CustomerDto customerDto = new CustomerDto();
-        customerDto.setFirstName("Müşteri Adı");
-        customerDto.setLastName("Müşteri Soyadı");
-        customerDto.setNotes("Müşteri Notes");
+       // Customer Dto Save
+       CustomerDto customerDto = new CustomerDto();
+       customerDto.setFirstName("Müşteri Adı");
+       customerDto.setLastName("Müşteri Soyadı");
+       customerDto.setNotes("Müşteri Notes");
 
-        // Composition
-        customerDto.setAddressDto(addressDto);
+       // Composition
+       customerDto.setAddressDto(addressDto);
 
-        // Save
-        //iCustomerService.customerServiceCreate(customerDto);
-        //System.out.println(customerDto);
-        return customerDto;
-    }
+       // Save
+       //iCustomerService.customerServiceCreate(customerDto);
+       //System.out.println(customerDto);
+       return customerDto;
+   }
 
-    // 2 TANE ÜRÜN EKLE
-    private ProductDto[] productSave(){
-        System.out.println("###############################################");
-        log.info("Product Verileri Kaydediliyor");
-        System.out.println("Product Verileri Kaydediliyor");
+   // 2 TANE ÜRÜN EKLE
+   private ProductDto[] productSave(){
+       System.out.println("###############################################");
+       log.info("Product Verileri Kaydediliyor");
+       System.out.println("Product Verileri Kaydediliyor");
 
-        // Dizi Tanımla
-        ProductDto[] productDtoArray = new ProductDto[2];
+       // Dizi Tanımla
+       ProductDto[] productDtoArray = new ProductDto[2];
 
-        // Ürün 1
-        ProductDto productDto1 = new ProductDto();
-        productDto1.setName("Masaüstü");
-        productDto1.setCode("code 10");
+       // Ürün 1
+       ProductDto productDto1 = new ProductDto();
+       productDto1.setName("Masaüstü");
+       productDto1.setCode("code 10");
 
-        // Ürün 1
-        ProductDto productDto2 = new ProductDto();
-        productDto2.setName("Laptop");
-        productDto2.setCode("code 15");
+       // Ürün 1
+       ProductDto productDto2 = new ProductDto();
+       productDto2.setName("Laptop");
+       productDto2.setCode("code 15");
 
-        // Diziye Ekle
-        productDtoArray[0]=productDto1;
-        productDtoArray[1]=productDto2;
-        return productDtoArray;
-    }
+       // Diziye Ekle
+       productDtoArray[0]=productDto1;
+       productDtoArray[1]=productDto2;
+       return productDtoArray;
+   }
 
-    // SİPARİŞ EKLE
-    private OrderDto orderSave(){
-        System.out.println("###############################################");
-        log.info("Order Verileri Kaydediliyor");
-        System.out.println("Order Verileri Kaydediliyor");
+   // SİPARİŞ EKLE
+   private OrderDto orderSave(){
+       System.out.println("###############################################");
+       log.info("Order Verileri Kaydediliyor");
+       System.out.println("Order Verileri Kaydediliyor");
 
-        // Order Instance
-        OrderDto orderDto = new OrderDto();
-        orderDto.setName("Kahvaltı");
-        orderDto.setPrice("price-1");
+       // Order Instance
+       OrderDto orderDto = new OrderDto();
+       orderDto.setName("Kahvaltı");
+       orderDto.setPrice("price-1");
 
-        // Composition (Müşteri Ekle ve zaten Müşteride Adress vardı)
-        // Customer, Adres'i Composition ekliyor
-        // Order, Customer'ı Composition olarak ekliyor.
-        orderDto.setCustomerDto(saveCustomer());
-        orderDto.setOrderProductDtoList(Arrays.asList(productSave()[0],productSave()[1]));
+       // Composition (Müşteri Ekle ve zaten Müşteride Adress vardı)
+       // Customer, Adres'i Composition ekliyor
+       // Order, Customer'ı Composition olarak ekliyor.
+       orderDto.setCustomerDto(saveCustomer());
+       orderDto.setOrderProductDtoList(Arrays.asList(productSave()[0],productSave()[1]));
 
-        // Database Kaydetmek
-        OrderDto orderDtoSaved = (OrderDto) iOrderService.objectServiceCreate(orderDto);
-        System.out.println(orderDtoSaved);
-        return orderDto;
-    }
+       // Database Kaydetmek
+       OrderDto orderDtoSaved = (OrderDto) iOrderService.objectServiceCreate(orderDto);
+       System.out.println(orderDtoSaved);
+       return orderDto;
+   }
 
-    @Override
-    public void run(String... args) throws Exception {
-        System.out.println("Project Data set -1 ");
-        log.info("Project Data set -1 ");
-        //addressSave();
-        //saveCustomer();
-        // Order Kaydet
-        OrderDto orderProductCustomerAddressSaved= orderSave();
-        System.out.println(orderProductCustomerAddressSaved);
-    }
-}
+   @Override
+   public void run(String... args) throws Exception {
+       System.out.println("Project Data set -1 ");
+       log.info("Project Data set -1 ");
+       //addressSave();
+       //saveCustomer();
+       // Order Kaydet
+       OrderDto orderProductCustomerAddressSaved= orderSave();
+       System.out.println(orderProductCustomerAddressSaved);
+   }
+}*/

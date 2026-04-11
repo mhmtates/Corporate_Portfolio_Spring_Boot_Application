@@ -14,7 +14,7 @@
 FROM openjdk:17
 
 # Bilgilendirme
-LABEL maintainer="hamitmizrak@gmail.com"
+LABEL maintainer="ozatesatess@gmail.com"
 
 # Çevresel Değişkenler
 ENV APP_NAME="Full Stack 11"

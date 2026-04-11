@@ -5,9 +5,9 @@
 
 ## _N-Tier Architecture_
 
-[![N|GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png)](https://github.com/hamitmizrak/Ecodation_FullStack_SpringReact_1)
+[![N|GitHub](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png)](https://github.com/mhmtates/Ecodation_FullStack_SpringReact_1)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/hamitmizrak/Ecodation_2025_FullStack_SpringReact_2.git)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/mhmtates/Ecodation_2025_FullStack_SpringReact_2.git)
 ![README PNG](./image/readme.png)
 
 ---
@@ -16,7 +16,7 @@
 
 Spring Boot And React JS
 
-- git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact4.git
+- git clone https://github.com/mhmtates/Ecodation_2026_FullStack_SpringReact4.git
 
 ---
 
@@ -205,8 +205,8 @@ As [Hamit Mızrak] writes on the [Markdown site][hm]
 > Computer Engineering  
 > Senior Full Stack Developer & DEVOPS & MOBIL APP
 
-[Mail Addres ](hamitmizrak@gmail.com)
-[Tel](hamitmizrak@gmail.com)
+[Mail Addres ](ozatesatess@gmail.com)
+[Tel](ozatesatess@gmail.com)
 
 ---
 
@@ -355,7 +355,7 @@ docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger
 [RDevtool]: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
 [FRONTEND]: https://github.com/denemed
 [BACKEND]: https://github.com/denemed
-[hm]: https://github.com/hamitmizrak
+[hm]: https://github.com/mhmtates
 [markdown-it]: https://github.com/markdown-it/markdown-it
 [Ace Editor]: http://ace.ajax.org
 [node.js]: http://nodejs.org
@@ -382,7 +382,7 @@ git push -u origin main
 # Git Clone
 
 ```sh
-git clone https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact4
+git clone https://github.com/mhmtates/Ecodation_2026_FullStack_SpringReact4
 cd 2025_Ecodation_Frontend2
 npm install
 VEYA
@@ -603,7 +603,7 @@ https://www.w3schools.com/html/
 ```sh
 git config --global user.name "hamitmizrak"
 git config --global user.name
-git config --global user.email "hamitmizrak@gmail.com"
+git config --global user.email "ozatesatess@gmail.com"
 git config --global user.email
 
 git init
@@ -614,7 +614,7 @@ git branch
 git push -u origin master
 
 git remote -v
-git clone https://github.com/hamitmizrak/https://github.com/hamitmizrak/2025_Ecodation_Frontend2
+git clone https://github.com/mhmtates/https://github.com/mhmtates/2025_Ecodation_Frontend2
 
 git log
 git reset HEAD~8

@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git"
+    "url": "git+https://https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git"
   },
   "keywords": [
     "Html5",
@@ -24,9 +24,9 @@
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend/issues"
+    "url": "https://github.com/mhmtates/Ecodation_2026_FullStack_SpringReact_4_Frontend/issues"
   },
-  "homepage": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend#readme",
+  "homepage": "https://github.com/mhmtates/Ecodation_2026_FullStack_SpringReact_4_Frontend#readme",
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"

@@ -1,4 +1,4 @@
-package com.mehmetatesozates.runner;
+/*package com.mehmetatesozates.runner;
 
 import com.mehmetatesozates.data.entity.BlogCategoryEntity;
 import com.mehmetatesozates.data.entity.BlogEntity;
@@ -80,4 +80,4 @@ public class _2_Blog_BlogCategory {
         };
     } //end CommandLineRunner
 
-} // _2_ProjectDataSet
+} // _2_ProjectDataSet */

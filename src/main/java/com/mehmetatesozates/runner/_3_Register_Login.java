@@ -1,4 +1,4 @@
-package com.mehmetatesozates.runner;
+/*package com.mehmetatesozates.runner;
 
 import com.mehmetatesozates.business.dto.RegisterDto;
 import com.mehmetatesozates.business.dto.RoleDto;
@@ -110,4 +110,4 @@ public class _3_Register_Login implements CommandLineRunner {
         roleAdd();
     }
 
-} //end BlogCommandLineRunner1
+} //end BlogCommandLineRunner1 */

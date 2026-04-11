@@ -28,13 +28,13 @@ import java.util.TimeZone;
 //@EnableJpaAuditing(auditorAwareRef = "auditingAwareBeanMethod")
 
 // Configuration Properties taramasını aç
-//@ConfigurationPropertiesScan(basePackageClasses = com.hamitmizrak.security.jwt.JwtProps.class)
+//@ConfigurationPropertiesScan(basePackageClasses = com.mehmetatesozates.security.jwt.JwtProps.class)
 // Spring Security: Şimdilik dahil etme, çünkü Bcrypted kullancağım ancak Spring security için gerekli kütüphaneleri dahil
 // Buradaki exclude ne zaman kapatmam gerekiyor ? cevap: Spring Security ile çalıştığımız zaman kapat
 
 // SCAN
-//@EntityScan(basePackages = "com.hamitmizrak.techcareer_2025_backend_1.data.entity")//Entity bulamadığı zaman
-//@EnableJpaRepositories(basePackages = "com.hamitmizrak.techcareer_2025_backend_1.data.repository") //Repository bulamadığı zaman
+//@EntityScan(basePackages = "com.mehmetatesozates.techcareer_2025_backend_1.data.entity")//Entity bulamadığı zaman
+//@EnableJpaRepositories(basePackages = "com.mehmetatesozates.techcareer_2025_backend_1.data.repository") //Repository bulamadığı zaman
 //@ComponentScan("com")
 /*@SpringBootApplication(exclude = {
         // Spring Security Dahil etme

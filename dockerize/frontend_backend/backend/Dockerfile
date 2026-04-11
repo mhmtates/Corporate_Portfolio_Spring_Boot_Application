@@ -2,7 +2,7 @@
 FROM openjdk:17
 
 # Bilgilerndirme
-LABEL maintainer="hamitmizrak@gmail.com"
+LABEL maintainer="ozatesatess@gmail.com"
 
 # Çevresel değişkeni tanımla ve değer atama
 ENV APP_NAME="Backend Project"
